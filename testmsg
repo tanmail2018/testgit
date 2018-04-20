@@ -1,1 +1,16 @@
 sdfasdjlfasdf
+sudo git clone https://github.com/EOSIO/binaryen正克隆到 'binaryen'...
+remote: Counting objects: 50172, done.
+remote: Compressing objects: 100% (4/4), done.
+error: RPC failed; curl 18 transfer closed with outstanding read data remaining
+fatal: The remote end hung up unexpectedly
+fatal: 过早的文件结束符（EOF）
+fatal: index-pack failed
+
+ 
+sudo git clone https://github.com/WebAssembly/binaryen
+
+kfeos@kfeos-System-Product-Name:~/eos$ sudo git submodule update --init --recursive
+fatal: 引用不是一个树：4f8980c8398a90efe30d94fc7b988c290560e1fd
+无法在子模组路径 'externals/binaryen' 中检出 '4f8980c8398a90efe30d94fc7b988c290560e1fd'
+sudo git clone https://github.com/WebAssembly/binaryen
